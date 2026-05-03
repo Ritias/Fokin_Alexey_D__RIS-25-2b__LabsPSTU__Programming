@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Страница-1" id="xlsHw-TllTngPdY2KTl5">
+    <mxGraphModel dx="1924" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" value="Node" vertex="1">
+          <mxGeometry height="200" width="260" x="390" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-2" parent="DEQbhO7mjkBGuP6pkGmj-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="+ data : int&lt;div&gt;+ next : Node*&lt;/div&gt;&lt;div&gt;+ prev : Node*&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-3" parent="DEQbhO7mjkBGuP6pkGmj-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-4" parent="DEQbhO7mjkBGuP6pkGmj-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="+ Node()&lt;div&gt;+ Node(i : int)&lt;/div&gt;&lt;div&gt;+ Node(i : int, first : Node*, second : Node*&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="260" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" value="Iterator" vertex="1">
+          <mxGeometry height="260" width="320" x="-110" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-6" parent="DEQbhO7mjkBGuP6pkGmj-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="- elem : Node*" vertex="1">
+          <mxGeometry height="34" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-7" parent="DEQbhO7mjkBGuP6pkGmj-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-8" parent="DEQbhO7mjkBGuP6pkGmj-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="+ Iterator()&lt;div&gt;+ Iterator(other : const Iterator&amp;amp;)&lt;/div&gt;&lt;div&gt;+ operator==(other : const Iterator&amp;amp;) : bool&lt;/div&gt;&lt;div&gt;+ operator!=(other : const Iterator&amp;amp;) : bool&lt;/div&gt;&lt;div&gt;+ operator++()&lt;/div&gt;&lt;div&gt;+ operator--()&lt;/div&gt;&lt;div&gt;+ operator+(n : int)&lt;/div&gt;&lt;div&gt;+ operator-(n : int)&lt;/div&gt;&lt;div&gt;+ operator*() : Node&amp;amp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="192" width="320" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" value="List" vertex="1">
+          <mxGeometry height="350" width="310" x="365" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-10" parent="DEQbhO7mjkBGuP6pkGmj-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="- size : int&lt;div&gt;- head : Node*&lt;/div&gt;&lt;div&gt;- tail : Node*&lt;/div&gt;&lt;div&gt;- beg : Iterator&lt;/div&gt;&lt;div&gt;- end : Iterator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-11" parent="DEQbhO7mjkBGuP6pkGmj-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-12" parent="DEQbhO7mjkBGuP6pkGmj-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;div&gt;+ List()&lt;/div&gt;+ List(s : int, k : int = 0)&lt;div&gt;+ List(l : const List&amp;amp;)&lt;/div&gt;&lt;div&gt;+ ~List()&lt;/div&gt;&lt;div&gt;+ operator=(l : const List&amp;amp;) : List&amp;amp;&lt;/div&gt;&lt;div&gt;+ operator[](index : int) : int&amp;amp;&lt;/div&gt;&lt;div&gt;+ operator*(l : const List &amp;amp;) : List&lt;/div&gt;&lt;div&gt;+ operator()() : int&lt;/div&gt;&lt;div&gt;+ first() : Iterator&lt;/div&gt;&lt;div&gt;+ last() : Iterator&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="212" width="310" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-14" edge="1" parent="1" source="DEQbhO7mjkBGuP6pkGmj-6" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" target="DEQbhO7mjkBGuP6pkGmj-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-17" connectable="0" parent="DEQbhO7mjkBGuP6pkGmj-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="Итерируется по" vertex="1">
+          <mxGeometry relative="1" x="-0.5865" y="9" as="geometry">
+            <mxPoint x="39" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-18" edge="1" parent="1" source="DEQbhO7mjkBGuP6pkGmj-5" style="endArrow=none;html=1;rounded=0;entryX=-0.002;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=16;edgeStyle=orthogonalEdgeStyle;" target="DEQbhO7mjkBGuP6pkGmj-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="114" />
+              <mxPoint x="280" y="509" />
+              <mxPoint x="389" y="509" />
+            </Array>
+            <mxPoint x="241" y="340" as="sourcePoint" />
+            <mxPoint x="300" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-21" connectable="0" parent="DEQbhO7mjkBGuP6pkGmj-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="Указывает на" vertex="1">
+          <mxGeometry relative="1" x="-0.0074" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DEQbhO7mjkBGuP6pkGmj-22" edge="1" parent="1" source="DEQbhO7mjkBGuP6pkGmj-1" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="DEQbhO7mjkBGuP6pkGmj-12" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="624" y="480" as="sourcePoint" />
+            <mxPoint x="626.4" y="380.00399999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
